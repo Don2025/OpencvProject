@@ -21,6 +21,9 @@
     <ClCompile Include="TydCV.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="lightTrackbar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="img\lena.png">

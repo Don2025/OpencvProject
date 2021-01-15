@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lightTrackbar.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TydCV.cpp" />
   </ItemGroup>

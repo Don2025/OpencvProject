@@ -27,7 +27,10 @@ public:
     }
     void deviceQuery(); //CUDA设备查询
     void colorSpace(Mat& image); //图像色彩空间转换
-    void colorSpace(Mat &image, string filename); //图像色彩空间转换, 可保存图像
+    void colorSpace(Mat& image, string filename); //图像色彩空间转换, 可保存图像
+    void lightTrackbar(Mat& image);  //滚动条调节亮度
+    Mat createA();  //创建一个灰度图像字母A
+    Mat createBGR(); //创建一个彩色图像
     ~TydCV() {
         waitKey(0);
         destroyAllWindows();
